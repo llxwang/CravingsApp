@@ -12,6 +12,11 @@
 		EA99B1062A79A91800F623DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA99B1052A79A91800F623DD /* Assets.xcassets */; };
 		EA99B1092A79A91800F623DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA99B1082A79A91800F623DD /* Preview Assets.xcassets */; };
 		EA99B1102A79AC1400F623DD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99B10F2A79AC1400F623DD /* SplashView.swift */; };
+		EACBB67C2A7AED1F00F5217F /* MadMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB67B2A7AED1F00F5217F /* MadMood.swift */; };
+		EACBB67E2A7AEEC000F5217F /* SadMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB67D2A7AEEC000F5217F /* SadMood.swift */; };
+		EACBB6802A7AEECA00F5217F /* HappyMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB67F2A7AEECA00F5217F /* HappyMood.swift */; };
+		EACBB6822A7AEED300F5217F /* NervousMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACBB6812A7AEED300F5217F /* NervousMood.swift */; };
+		EADC37902A7C29FB00F642C9 /* chicken.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC378F2A7C29FB00F642C9 /* chicken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		EA99B1052A79A91800F623DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA99B1082A79A91800F623DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA99B10F2A79AC1400F623DD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EACBB67B2A7AED1F00F5217F /* MadMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadMood.swift; sourceTree = "<group>"; };
+		EACBB67D2A7AEEC000F5217F /* SadMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadMood.swift; sourceTree = "<group>"; };
+		EACBB67F2A7AEECA00F5217F /* HappyMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyMood.swift; sourceTree = "<group>"; };
+		EACBB6812A7AEED300F5217F /* NervousMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NervousMood.swift; sourceTree = "<group>"; };
+		EADC378F2A7C29FB00F642C9 /* chicken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chicken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,11 @@
 		EA99B0F52A79A91400F623DD = {
 			isa = PBXGroup;
 			children = (
+				EACBB67D2A7AEEC000F5217F /* SadMood.swift */,
+				EACBB67F2A7AEECA00F5217F /* HappyMood.swift */,
+				EACBB6812A7AEED300F5217F /* NervousMood.swift */,
+				EACBB67B2A7AED1F00F5217F /* MadMood.swift */,
+				EADC378F2A7C29FB00F642C9 /* chicken.swift */,
 				EA99B1002A79A91400F623DD /* CravingsApp */,
 				EA99B0FF2A79A91400F623DD /* Products */,
 			);
@@ -141,8 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA99B1042A79A91400F623DD /* ContentView.swift in Sources */,
+				EACBB6822A7AEED300F5217F /* NervousMood.swift in Sources */,
+				EACBB67C2A7AED1F00F5217F /* MadMood.swift in Sources */,
 				EA99B1022A79A91400F623DD /* CravingsAppApp.swift in Sources */,
+				EACBB67E2A7AEEC000F5217F /* SadMood.swift in Sources */,
+				EADC37902A7C29FB00F642C9 /* chicken.swift in Sources */,
 				EA99B1102A79AC1400F623DD /* SplashView.swift in Sources */,
+				EACBB6802A7AEECA00F5217F /* HappyMood.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

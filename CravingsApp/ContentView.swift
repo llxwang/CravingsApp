@@ -9,13 +9,40 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            ZStack{
+                //Color.pink
+                    //.ignoresSafeArea()
+                VStack (spacing: 15){
+                    Text("what mood are you feeling today?")
+                        .font(.largeTitle)
+                        .fontWeight(.heavy)
+                        .multilineTextAlignment(.center)
+                    
+                    NavigationLink(destination: MadMood()) {
+                        Text("mad 😡")
+                            .font(.title)
+                    }
+                    NavigationLink(destination: SadMood()) {
+                        Text("sad 😭")
+                            .font(.title)
+                    }
+                    NavigationLink(destination: HappyMood()) {
+                        Text("happy 😊")
+                            .font(.title)
+                    }
+                    NavigationLink(destination: NervousMood()) {
+                        Text("nervous 😰")
+                            .font(.title)
+                    }
+                }
+                .padding()
+                .background(.white)
+                .cornerRadius(25)
+                .padding()
+            }
+            
         }
-        .padding()
     }
 }
 
